@@ -16,6 +16,9 @@
 * [ft_boilerplate](ft_boilerplate.sh) : A basic shell script that creates the a basic structure + add libft librarie for a 42 projects. <br>
 └── Keywords: `libft` `Makefile` `structures of directories` `.gitignore` `README`
 
+* [ft_lock](ft_lock.sh) : Script to kll the ft_lock of 42sp. <br>
+└── Keywords: `shell` 
+
 ## 🛠️ Usage
 This project requires the [GNU Compiler Collection](https://gcc.gnu.org/), the [GNU Make](https://www.gnu.org/software/make/) compiler, and the Internet to clone this repository of to you acess the .sh file.
 
