@@ -12,4 +12,28 @@
 	<img alt="Main language" src="https://img.shields.io/github/license/mewmewdevart/42Automation?color=6272a4"/>
 </p>
 
+## 📁 Files/
+* [ft_boilerplate](ft_boilerplate.sh) : A basic shell script that creates the a basic structure + add libft librarie for a 42 projects. <br>
+└── Keywords: `libft` `Makefile` `structures of directories` `.gitignore` `README`
+
+## 🛠️ Usage
+This project requires the [GNU Compiler Collection](https://gcc.gnu.org/), the [GNU Make](https://www.gnu.org/software/make/) compiler, and the Internet to clone this repository of to you acess the .sh file.
+
+### Instructions to run the script:
+
+**0. Download or copy the archives**
+
+```bash
+# Clone the repository
+$ git clone git@github.com:mewmewdevart/42Automation.git
+
+# Call the script inside your project folder
+$ ./42Automation/ft_boilerplate.sh ./your-project-folder
+
+# or just run the script for copy the files after to your root project manually
+$ cd 42Automation/
+$ ./ft_boilerplate.sh 
+```
+
+
 <p align="center"> Developed with love 💜 by Larissa Cristina Benedito (Mewmew/Larcrist). </p>
