@@ -13,6 +13,8 @@ echo "__________________________________________________________________________
 
 
 echo "Remember to run this script in your root project directory."
+echo "Waiting for 5 seconds..."
+sleep 5
 
 read -p "What is your username on GitHub? " USERNAME
 USERNAME=${USERNAME:-"mewmewdevart"}
@@ -52,15 +54,13 @@ rm -rf libraries/library/README.md
 echo "Do you want to download the Makefiles for the project? (yes/no)"
 read answer
 if [ "$answer" == "yes" ]; then
-  echo "Downloading 'Makefile_1 with simple structure'..."
-  wget https://raw.githubusercontent.com/mewmewdevart/42Automation/main/sourcesBoilerplate/Makefile_1 2> /dev/null
+  echo "Downloading 'Makefile_1 with simple structure with libft'..."
+  wget https://raw.githubusercontent.com/mewmewdevart/42Automation/main/srcsBoilerplate/Makefile_1 2> /dev/null
   echo "Done."
-  echo "Downloading 'Makefile_2 with libft include'..."
-  wget https://raw.githubusercontent.com/mewmewdevart/42Automation/main/sourcesBoilerplate/Makefile_2 2> /dev/null
+  echo "Downloading 'Makefile_2 with libft and mlx'..."
+  wget https://raw.githubusercontent.com/mewmewdevart/42Automation/main/srcsBoilerplate/Makefile_2 2> /dev/null
   echo "Done."
-  echo "Downloading 'Makefile_3 with libft and mlx include'..."
-  wget https://raw.githubusercontent.com/mewmewdevart/42Automation/main/sourcesBoilerplate/Makefile_3 2> /dev/null
-  echo "Done."
+
    echo "Don't forget to rename them to the correct name and delete the ones you won't be using."
 elif [ "$answer" == "no" ]; then
   echo "No Makefile? Okay!."
@@ -68,15 +68,14 @@ else
   echo "Invalid answer. Please type 'yes' or 'no' in lowercase"
 fi
 
-
 echo "Do you want to download the some .gitignore files? (yes/no)"
 read answer
 if [ "$answer" == "yes" ]; then
   echo "Downloading '.gitignore' to C projects..."
-    wget https://raw.githubusercontent.com/mewmewdevart/42Automation/main/sourcesBoilerplate/.gitignore_C 2> /dev/null
+    wget https://raw.githubusercontent.com/mewmewdevart/42Automation/main/srcsBoilerplate/.gitignore_C 2> /dev/null
   echo "Done."
   echo "Downloading '.gitignore' to C++ projects..."
-    wget https://raw.githubusercontent.com/mewmewdevart/42Automation/main/sourcesBoilerplate/.gitignore_CPlus 2> /dev/null
+    wget https://raw.githubusercontent.com/mewmewdevart/42Automation/main/srcsBoilerplate/.gitignore_CPlus 2> /dev/null
   echo "Done."
   echo "Don't forget to rename them to the correct name and delete the ones you won't be using."
 elif [ "$answer" == "no" ]; then
