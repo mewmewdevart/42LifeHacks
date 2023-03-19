@@ -82,12 +82,12 @@ clean :
 	@$(REMOVE) $(OBJS_PATH)
 	@make clean -C $(LIBFT_PATH) --no-print-directory
 	@make clean -C $(MLX_PATH) --no-print-directory
-	@echo "$(BLUE)[SO_LONG] Object files cleaned!$(DEF_COLOR)"
+	@echo "$(BLUE)[PROJECT X] Object files cleaned!$(DEF_COLOR)"
 
 fclean : clean
 	@$(REMOVE) $(NAME) $(HEADER_PATH)$(LIB_PROJECT) $(BINS_PATH) $(OBJS_PATH)
 	@make fclean -C $(LIBFT_PATH) --no-print-directory
-	@echo "$(BLUE)[SO_LONG] Executable files and directories cleaned!$(DEF_COLOR)"
+	@echo "$(BLUE)[PROJECT X] Executable files and directories cleaned!$(DEF_COLOR)"
 
 re : fclean all
 
