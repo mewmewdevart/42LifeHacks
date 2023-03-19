@@ -19,6 +19,12 @@
 * [ft_lock](ft_lock.sh) : Script to kll the ft_lock of 42sp. <br>
 └── Keywords: `shell` 
 
+* [ft_valgrind](ft_valgrind.sh) : Script to check erros in the file inside bin/ folder
+└── Keywords: `valgrind` 
+
+* [ft_submodule](ft_submodule.sh) : Script to  do github submodules
+└── Keywords: `github` 
+
 ## 🛠️ Usage
 This project requires the [GNU Compiler Collection](https://gcc.gnu.org/), the [GNU Make](https://www.gnu.org/software/make/) compiler, and the Internet to clone this repository of to you acess the .sh file.
 
