@@ -38,5 +38,9 @@ $ cd 42Automation/
 $ ./ft_boilerplate.sh 
 ```
 
+## 📋 Credits
+* [Riceset/ft_boilerplate](https://github.com/riceset/ft_boilerplate)
+* [Fnacarel/shell-scripts-for-fun](https://github.com/fnacarellidev/shell-scripts-for-fun)
+
 
 <p align="center"> Developed with love 💜 by Larissa Cristina Benedito (Mewmew/Larcrist). </p>
