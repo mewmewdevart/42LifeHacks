@@ -19,10 +19,10 @@
 * [ft_lock](ft_lock.sh) : Script to kll the ft_lock of 42sp. <br>
 └── Keywords: `shell` 
 
-* [ft_valgrind](ft_valgrind.sh) : Script to check erros in the file inside bin/ folder
+* [ft_valgrind](ft_valgrind.sh) : Script to check erros in the file inside bin/ folder <br> 
 └── Keywords: `valgrind` 
 
-* [ft_submodule](ft_submodule.sh) : Script to  do github submodules
+* [ft_submodule](ft_submodule.sh) : Script to  do github submodules <br>
 └── Keywords: `github` 
 
 ## 🛠️ Usage
