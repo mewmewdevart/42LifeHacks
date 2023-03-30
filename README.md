@@ -1,9 +1,10 @@
 <h1 align="center">
-	42Automation 📁
+	42LifeHacks 📁
 </h1>
 
 <p align="center">
-	<b><i>Just a simple repository dedicated to making my life easier when developing projects at 42Ecole.</i></b><br>
+	<b><i>Truques simples e guias de bolso que tornarão os seus dias mais coloridos na 42.</i></b><br>
+	<i>Repositorio apenas para Lusófonos.</i><br>
 </p>
 
 <p align="center">
@@ -12,18 +13,21 @@
 	<img alt="Main language" src="https://img.shields.io/github/license/mewmewdevart/42Automation?color=6272a4"/>
 </p>
 
-## 📁 Files/
-* [ft_boilerplate](ft_boilerplate.sh) : A basic shell script that creates the a basic structure + add libft librarie for a 42 projects. <br>
-└── Keywords: `libft` `Makefile` `structures of directories` `.gitignore` `README`
+## 📁 Conteudos/
+- Instalacoes/ <br>
+└── ```Unity_Engine``` : Instalação da Unity Engine no Linux do Campus.
 
-* [ft_lock](ft_lock.sh) : Script to kll the ft_lock of 42sp. <br>
-└── Keywords: `shell` 
+```ft_boilerplate``` : Um script shell básico que cria uma estrutura básica + adiciona a biblioteca libft para projetos 42. <br>
+└── Palavras-chave: libft Makefile estruturas de diretórios .gitignore README
 
-* [ft_valgrind](ft_valgrind.sh) : Script to check erros in the file inside bin/ folder <br> 
-└── Keywords: `valgrind` 
+```ft_lock``` : Script para matar o ft_lock da 42sp. <br>
+└── Palavras-chave: shell
 
-* [ft_submodule](ft_submodule.sh) : Script to  do github submodules <br>
-└── Keywords: `github` 
+```ft_valgrind``` : Script para verificar erros no arquivo dentro da pasta bin/ <br>
+└── Palavras-chave: valgrind
+
+```ft_submodule``` : Script para fazer submódulos do github <br>
+└── Palavras-chave: github
 
 ## 🛠️ Usage
 This project requires the [GNU Compiler Collection](https://gcc.gnu.org/), the [GNU Make](https://www.gnu.org/software/make/) compiler, and the Internet to clone this repository of to you acess the .sh file.
@@ -33,20 +37,21 @@ This project requires the [GNU Compiler Collection](https://gcc.gnu.org/), the [
 **0. Download or copy the archives**
 
 ```bash
-# Clone the repository
-$ git clone git@github.com:mewmewdevart/42Automation.git
+# Clone o repositório
+$ git clone git@github.com:mewmewdevart/42LifeHacks.git
 
-# Call the script inside your project folder
-$ ./42Automation/ft_boilerplate.sh ./your-project-folder
+# Chame o script dentro da pasta do seu projeto
+$ ./42LifeHacks/ft_boilerplate.sh ./sua-pasta-de-projeto
 
-# or just run the script for copy the files after to your root project manually
-$ cd 42Automation/
+# ou execute o script para copiar os arquivos manualmente para a raiz do projeto
+$ cd 42LifeHacks/
 $ ./ft_boilerplate.sh 
 ```
 
-## 📋 Credits
+## 📋 Creditos
 * [Riceset/ft_boilerplate](https://github.com/riceset/ft_boilerplate)
 * [Fnacarel/shell-scripts-for-fun](https://github.com/fnacarellidev/shell-scripts-for-fun)
+* [Etachott/UnityEngine_install](https://github.com/0xEDU)
 
 
-<p align="center"> Developed with love 💜 by Larissa Cristina Benedito (Mewmew/Larcrist). </p>
+<p align="center"> Desenvolvido com 💜 by Larissa Cristina Benedito (Mewmew/Larcrist). </p>
