@@ -14,7 +14,7 @@
 </p>
 
 ## 📁 Conteudos/
-- Instalacoes/ <br>
+Instalacoes/ <br>
 └── ```Unity_Engine``` : Instalação da Unity Engine no Linux do Campus.
 
 ```ft_boilerplate``` : Um script shell básico que cria uma estrutura básica + adiciona a biblioteca libft para projetos 42. <br>
