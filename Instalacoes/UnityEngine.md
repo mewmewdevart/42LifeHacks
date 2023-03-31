@@ -1,12 +1,13 @@
-### Como instalar o Unity em uma máquina 42
+
+<!-- ### Como instalar o Unity em uma máquina 42
 
 Entre no diretorio do goinfre/
 
 Baixe a Unity estando dentro do diretorio goinfre/
 
 irei arrumar em breve
-/*
 
+-->
 # How to install Unity in a 42 Machine
 
 ### 1. Download Unity to goinfre: https://unity.com/releases/editor/whats-new/2021.3.21
@@ -32,4 +33,4 @@ You can run Unity now:
 ./Unity 
 ```
 Now, you can open an existing project or create a new one. Have fun!
-*/
+
